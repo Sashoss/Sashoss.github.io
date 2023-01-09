@@ -2,20 +2,29 @@
     
     <style>
         
-        .dropdown {
-            position: relative;
-            display: inline-block;
+        .header-bar {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
         }
         
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            z-index: 1;
+        .header-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
         }
         
-        .dropdown:hover .dropdown-content {
-            display: block;
+        .header-bar li {
+            padding: 0 20px;
         }
+        
+        .header-bar a {
+            color: #fff;
+            text-decoration: none;
+        }
+
         
     </style>
     
@@ -32,7 +41,7 @@
   Jekyll theme for creating resume" }}">
   
   <header>
-      <nav>
+      <div>
           <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/Softwares/">Softwares</a></li>
@@ -40,17 +49,10 @@
               <li><a href="/blog/">Blog</a></li>
               <li><a href="/contact/">Contact</a></li>
           </ul>
-      </nav>
+      </div>
   </header>
   
-  <div class="dropdown" data-dropdown>
-      <button class="dropbtn">Dropdown</button>
-      <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-      </div>
-  </div>
+  
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">

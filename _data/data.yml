@@ -50,7 +50,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Quantitative and Systems Biology PhD student and my research focusses on characterizing transcriptomic profile of pan-cancer Tumor Endothelial Cells to facilitate cancer treatment.
+      I am a Quantitative and Systems Biology PhD student and my research focusses on characterizing transcriptome profile of pan-cancer Tumor Endothelial Cells to facilitate cancer treatment.
+      
 education:
     title: Education
     info:
@@ -60,16 +61,12 @@ education:
         details: |
           Details....
       - degree: PhD in Quantitative and Systems Biology
-        university: Bristol University
-        time: 2007 - 2011
+        university: University of California, Merced
+        time: 2021 - Current
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Details
+          
+          
 experiences:
     title: Experiences
     info:
@@ -106,48 +103,20 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: TEC-classifier
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Add details later"
 
-      - title: Tempo
+      - title: CSC-classifier
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Add details later"
 
-      - title: Atom
+      - title: Cancer invasiveness index
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Add details later"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
@@ -184,7 +153,7 @@ skills:
       - name: Cell Culture
         level: 90%
 
-      - name: Induced Pluripotent Stem Cells
+      - name: iPSCs
         level: 80%
         
       - name: 3D culture

@@ -2,6 +2,13 @@
 {% if career-profile %}
 
 <style>
+    
+    @media (max-width: 480px) {
+        .horizontal-bar ul {
+            flex-direction: column; /* stack the buttons vertically on small screens */
+        }
+    }
+    
     .horizontal-bar {
         display: flex;
         align-items: center;

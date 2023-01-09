@@ -142,7 +142,7 @@ skills:
         level: 90%
 
       - name: R
-        level: 70%
+        level: 80%
 
       - name: Machine learning
         level: 70%
@@ -151,19 +151,19 @@ skills:
         level: 85%
 
       - name: Cell Culture
-        level: 90%
+        level: 80%
 
       - name: iPSCs
-        level: 80%
+        level: 70%
         
       - name: 3D culture
-        level: 80%
+        level: 70%
         
       - name: Stem cells triculture
-        level: 80%
+        level: 70%
         
       - name: Flow cytometry
-        level: 70%
+        level: 60%
 
 
 footer: >

@@ -1,4 +1,24 @@
 <head>
+    
+    <style>
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+    </style>
+    
   <title>{{ site.title }}</title>
 
   <!-- Meta -->
@@ -10,6 +30,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ site.description |default: "A beautiful
   Jekyll theme for creating resume" }}">
+  
+  <header>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/Softwares/">Softwares</a></li>
+              <li><a href="/Travel/">Travel</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/contact/">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+  <div class="dropdown" data-dropdown>
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+      </div>
+  </div>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">

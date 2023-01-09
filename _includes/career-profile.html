@@ -32,19 +32,23 @@
         cursor: pointer;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transform: translateY(-4px);
+        border-radius: 4px; /* add rounded corners to the buttons */
+        transition: all 0.3s ease; /* add a transition effect */
     }
     
     .horizontal-bar button:hover {
         background-color: #444;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); /* add a box shadow on hover */
+        transform: translateY(-6px); /* move the button upward on hover */
     }
     
 </style>
 
 <div class="horizontal-bar">
     <ul>
-        <li><button>Button 1</button></li>
-        <li><button>Button 2</button></li>
-        <li><button>Button 3</button></li>
+        <li><button>Softwares</button></li>
+        <li><button>Research</button></li>
+        <li><button>Travel</button></li>
     </ul>
 </div>
 

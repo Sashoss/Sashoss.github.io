@@ -52,6 +52,12 @@ career-profile:
     summary: |
       I am a Quantitative and Systems Biology PhD student and my research focusses on characterizing transcriptome profile of pan-cancer Tumor Endothelial Cells to facilitate cancer treatment.
       
+      My research interest lies in:
+      1. Directed differentiation of induced pluripotent stem cells (iPSCs) and Human embryonic stem cells (hESCs) into specialized endothelial cells called tip and stalk.
+      2. Study role of specialized endothelial cells and cancer stem cells in promoting cancer metastasis.
+      3. Design computational models to study stemness and angiogenesis in Tumor Microenvironment.
+      4. Multimodal transcriptomic data analysis and biological inference.
+      
 education:
     title: Education
     info:
@@ -78,6 +84,8 @@ experiences:
           Courses taught/teaching:
           1. Mathematical Modeling for Biology
           2. Statistics for Scientific Data Analysis
+          3. Introduction to Molecular Biology
+          4. Contemporary Biology Lab
       
 projects:
     title: Projects
@@ -86,15 +94,11 @@ projects:
     assignments:
       - title: TEC-classifier
         link: "#"
-        tagline: "Add details later"
+        tagline: "Machine learning method built to predict vascular density within Tumor Microenvironment"
 
       - title: CSC-classifier
         link: "#"
-        tagline: "Add details later"
-
-      - title: Cancer invasiveness index
-        link: "#"
-        tagline: "Add details later"
+        tagline: "Machine learning method built to predict cancer stemness"
 
 
 publications:
@@ -124,19 +128,19 @@ skills:
         level: 80%
 
       - name: Machine learning
-        level: 70%
+        level: 75%
 
       - name: Statistical modelling
         level: 85%
+        
+      - name: Single cell data analysis
+        level: 75%
 
       - name: Cell Culture
         level: 80%
 
-      - name: iPSCs
-        level: 70%
-        
       - name: 3D culture
-        level: 70%
+        level: 65%
         
       - name: Stem cells triculture
         level: 70%

@@ -104,7 +104,7 @@ projects:
 publications:
     title: Publications
     intro: |
-      Add details
+      
     papers:
       - title: Impact of evolutionary selection on dynamic behavior of MCAK protein.
         link: "https://www.biorxiv.org/content/10.1101/2020.12.04.412650v3.full"

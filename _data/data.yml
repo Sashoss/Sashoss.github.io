@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Shiwani Limbu
+    tagline: Quantitative and Systems Biology Graduate Student
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: slimbu (at) ucmerced.com
+    phone: NA
+    linkedin:
+    github: Sashoss
+    telegram: # add your nickname without '@' sign
+
+    pdf: To be added
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Hindi
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+        - idiom: Nepali
+          level: Native
+          
+        - idiom: Limbu
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Hiking
+          link:
+
+        - item: Astrology
+          link:
+
+        - item: Cooking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am a Quantitative and Systems Biology PhD student and my research focusses on characterizing transcriptome profile of pan-cancer Tumor Endothelial Cells to facilitate cancer treatment.
+      
+      My research interests are:
+      1. Directed differentiation of induced pluripotent stem cells (iPSCs) and Human embryonic stem cells (hESCs) into specialized endothelial cells called tip and stalk.
+      2. Study role of specialized endothelial cells and cancer stem cells in promoting cancer metastasis.
+      3. Design computational models to study stemness and angiogenesis in Tumor Microenvironment.
+      4. Multimodal transcriptomic data analysis and biological inference.
+      
+education:
+    title: Education
+    info:
+      - degree: B. Tech in Biotechnology
+        university: Graphic Era University
+        time: 2012 - 2016
+        details: |
+          Details....
+      - degree: PhD in Quantitative and Systems Biology
+        university: University of California, Merced
+        time: 2021 - Current
+        details: |
+          Details
+          
+          
+experiences:
+    title: Experiences
+    info:
+      - role: Teaching Asistant
+        time: Aug 2021 - Current
+        course: Introductory Biology
+        company: University of California, Merced
+        details: |
+          Courses taught/teaching:
+          1. Mathematical Modeling for Biology
+          2. Statistics for Scientific Data Analysis
+          3. Introduction to Molecular Biology
+          4. Contemporary Biology Lab
+      
+projects:
+    title: Projects
+    intro: >
+      
+    assignments:
+      - title: TEC-classifier
+        link: "#"
+        tagline: "Machine learning method built to predict vascular density within Tumor Microenvironment"
+
+      - title: CSC-classifier
+        link: "#"
+        tagline: "Machine learning method built to predict cancer stemness"
+
+
+publications:
+    title: Publications
+    intro: |
+      
+    papers:
+      - title: Impact of evolutionary selection on dynamic behavior of MCAK protein.
+        link: "https://www.biorxiv.org/content/10.1101/2020.12.04.412650v3.full"
+        authors: Limbu S.
+        DOI: 10.1101/2020.12.04.412650
+
+      - title: "Association of miR-1247 expression with clinicopathological parameters and prognosis. (Under review)"
+        link: "#"
+        authors: Limbu S., McCloskey KE.
+        
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: R
+        level: 80%
+
+      - name: Machine learning
+        level: 75%
+
+      - name: Statistical modelling
+        level: 85%
+        
+      - name: Single cell data analysis
+        level: 75%
+
+      - name: Cell Culture
+        level: 80%
+
+      - name: 3D culture
+        level: 65%
+        
+      - name: Stem cells triculture
+        level: 70%
+        
+      - name: Flow cytometry
+        level: 60%
+
+
+footer: >
+    <i class="fas fa-heart"></i>
